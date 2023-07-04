@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Happy Monkey', cursive;
+}
+
+body{
+    background-color: rgb(72, 72, 223);
+    
+}
+
+body:hover{
+    transition: 500ms;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+h1{
+    border: solid;
+    color: black;
+    box-shadow: 1px 1px 1px 1px black;
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+}
+h1:hover{
+    cursor: pointer;
+    transition: 240ms;
+    scale: 1.1;
+}
+
+
+main{
+    display: flex;
+    justify-content: center
+}
+
+main section{
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px 10px;
+    background-color: rgb(231, 225, 237);
+    width: 50vw;
+    text-align: center;
+}
+.divButtons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttonStyle{
+    cursor: pointer;
+    width: 12vw;
+    background-color: rgb(231, 225, 237);
+}
+.buttonStyle:hover{
+    transition: 450ms;
+    scale:1.1;
+}
+
+main section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48vw;
+    height: 55vh;
+}
+
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 20vh;
+
+}
+nav h1{
+    cursor: pointer;
+    color: yellow
+}
+
+nav h1:hover{
+    transition: 250ms;
+    scale: 1.1;
+    color: rgb(244, 244, 45);
+}
+
+img{
+    border: solid 3px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div#res{
+    font-size: 22px;
+    text-align: center;
+
+}
+h3{
+    font-size:30px
+}
+
+h3:hover{
+    transition: 500ms;
+    scale:1.2;
+}
